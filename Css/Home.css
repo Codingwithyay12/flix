@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.Navbar {
+  background-color: #0084ff;
+  display: flex;
+}
+
+.Navbar div{
+  padding: 10px;
+}
+
+.Nav-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.Nav-middle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nav-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nav-logo {
+  width: 200px;
+  height: 60px;
+  margin-right: 400px;
+  border-radius: 4px;
+}
+
+.Nav-T {
+  color: white;
+  text-align:center;
+  text-decoration: none;
+}
+
+.Home-Nav-Bnt {
+  background-color: #0084ff;
+  width: 100px;
+  height: 25px;
+  margin-right: 45px;
+  border-radius: 4px;
+  border: 3px white solid;
+}
+
+.Chat-Nav-Bnt {
+  background-color: #0084ff;
+  width: 100px;
+  height: 25px;
+  border-radius: 4px;
+  border: 3px white solid;
+}
+
+.Login-Nav-Bnt {
+  background-color: #0084ff;
+  width: 100px;
+  height: 25px;
+  margin-right: 45px;
+  border-radius: 4px;
+  border: 3px white solid;
+}
+
+.Signup-Nav-Bnt {
+  background-color: #0084ff;
+  width: 100px;
+  height: 25px;
+  border-radius: 4px;
+  border: 3px white solid;
+}
+
+.Home-Nav-Bnt:hover, .Chat-Nav-Bnt:hover, .Login-Nav-Bnt:hover, .Signup-Nav-Bnt:hover {
+  color: #0084ff;
+  background-color: white;
+  transition: all 0.2s;
+}
